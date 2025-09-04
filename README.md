@@ -1,3 +1,3 @@
-# EclosionMonitor Plugin for Fiji
+# Fiji macros for eclosion monitor
 
 
