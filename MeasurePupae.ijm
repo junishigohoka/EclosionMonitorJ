@@ -25,7 +25,9 @@ for (i = 0; i < list.length; i++) {
                 // Measure
                 run("Select All");
                 roiManager("Measure");
-                close(input + list[i]);
+                //close(input + list[i]);
+                close("*");
+                run("Collect Garbage");
         }
 }
 
